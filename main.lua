@@ -192,4 +192,7 @@ end)
 
 crearBoton("❌ Cerrar Panel", function()
 	gui:Destroy()
+		-- Mostrar automáticamente el panel al cargar
+frame.Visible = true
+
 end)
