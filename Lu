@@ -1,0 +1,6 @@
+dni_terminacion = "2618"
+
+for i in range(10000):
+    prefix = f"{i:04d}"
+    dni = prefix + dni_terminacion
+    print(dni)
